@@ -1,0 +1,65 @@
+h1 {
+    color: white;
+    text-align: center;
+    font-size: 1.6em;
+}
+
+h2 {
+    color: white;
+}
+
+.adicionar,
+.ativas {
+    width: 50%;
+    margin-top: 1em;
+}
+
+form {
+    position: relative;
+    text-align: center;
+}
+
+input {
+    width: 25em;
+    height: 3em;
+    background-color: rgb(29, 28, 28);
+    border: 1px solid gray;
+    margin-top: 1em;
+    color: white;
+}
+
+::placeholder {
+    color: white;
+}
+
+button {
+    margin-top: 1em;
+    width: 25em;
+    height: 3em;
+    background-image: linear-gradient(to left, black, #262626);
+    color: white;
+    border: 1px solid gray;
+}
+
+textarea {
+    background-color: #262626;
+    margin-top: 1em;
+    color: white;
+}
+
+label {
+    color: white;
+}
+
+td a {
+    color: red;
+    text-decoration: none;
+}
+
+td a:hover {
+    color: red;
+}
+
+legend {
+    color: white;
+}
