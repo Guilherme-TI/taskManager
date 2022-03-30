@@ -51,8 +51,7 @@ require_once "class/Usuario.php";
 
                     <?php
                     $tarefa = new Tarefa();
-                    $t = $tarefa->listTask($_SESSION['logado']);
-                    if($t){ ?>
+                    foreach($tarefa->listTask($_SESSION['logado']) as $t){ ?>
 
                         <tr>
                             <td><?= $t['titulo']; ?></td>
