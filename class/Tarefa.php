@@ -17,7 +17,7 @@ class Tarefa{
         $stm = Conexao::conectar()->prepare($sql);
         $stm->bindValue(1, $id);
         $stm->execute();
-        return $stm->fetch();
+        return $stm->fetchAll();
     }
 
     public function deleteTask($id){
