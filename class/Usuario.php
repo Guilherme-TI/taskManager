@@ -26,8 +26,4 @@ class Usuario{
             return false;
         }
     }
-    public function listarUsuario(){
-        $sql ="SELECT * FROM usuario";
-        return $query = Conexao::conectar()->query($sql);
-    }
 }
