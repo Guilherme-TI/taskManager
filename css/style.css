@@ -13,12 +13,6 @@ h2 {
     color: white;
 }
 
-.adicionar,
-.ativas {
-    width: 50%;
-    margin-top: 1em;
-}
-
 form {
     position: relative;
     text-align: center;
