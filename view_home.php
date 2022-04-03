@@ -18,7 +18,6 @@ require_once "class/Usuario.php";
 </head>
 
 <body>
-    <?php require_once "view_nav.php"; ?>
 
     <h1 class="text mb-4">Olá <?= $_SESSION['nome']; ?>! Gerencie as suas tarefas</h1>
     <script src="script/textEffect.js"></script>
